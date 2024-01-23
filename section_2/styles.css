@@ -1,12 +1,25 @@
+body {
+    text-align: center;
+    background-color: rgb(233, 215, 207);
+    margin: 50px;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+
+    border-radius: 100px;
+}
+
 h1{
     font-family: Oswald; 
-    text-align: center; 
+    /* text-align: center;  - 위 body요소에서 이미 정의함*/
     color : rgb(74, 50, 50);
 }
 
 p{
     font-family: sans-serif; 
-    text-align: center; 
+    /* text-align: center; */ 
     color: rgb(74, 50, 50);
 }
 
@@ -24,3 +37,6 @@ a:hover{
     font-weight: bold;
     font-size: 52px;
 }
+
+
+
