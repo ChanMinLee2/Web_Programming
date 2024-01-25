@@ -1,0 +1,21 @@
+body{
+    background-color: rgb(233, 215, 207);
+    color: rgb(83, 75, 75);
+    text-align: center;
+}
+
+h1{
+    font-family: 'Oswald', sans-serif;
+    font-size: large;
+}
+
+p{
+    font-family: 'Fira Sans', sans-serif;
+    font-size: large;
+}
+
+a{
+    font-family: 'Fira Sans', sans-serif;
+    text-decoration: none;
+    color:red;
+}
