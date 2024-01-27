@@ -1,21 +1,10 @@
-body{
-    background-color: rgb(233, 215, 207);
-    color: rgb(83, 75, 75);
-    text-align: center;
+ol{
+    list-style: none;
+    /* color: rgb(251,255,0); */
 }
 
-h1{
-    font-family: 'Oswald', sans-serif;
-    font-size: large;
-}
-
-p{
-    font-family: 'Fira Sans', sans-serif;
-    font-size: large;
-}
-
-a{
-    font-family: 'Fira Sans', sans-serif;
-    text-decoration: none;
-    color:red;
-}
+/* all coment processing : ctrl + / */
+li{
+    /* list-style: square; */
+    /* color: rgb(251,100,0);*/
+} 
