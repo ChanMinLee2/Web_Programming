@@ -1,16 +1,22 @@
+header{
+    margin-bottom: 64px;
+}
+
 h1{
     font-size: 48px;
     color: rgb(71,62,62);
     margin: 12px 0;
 }
 
-/* #description{
-    margin-bottom: 36px;
-} */
-
-header p{
+/*id selector는 매우 구체적, 1개 대상만 사용가능.*/
+#description{
     margin-bottom: 36px;
 }
+
+/* descendent selector는 덜 구체적이고 포괄적, 여러 개 대상으로 사용가능.
+header p{
+    margin-bottom: 36px;
+} */
 
 a{
     padding:  12px 48px;
@@ -48,9 +54,13 @@ h2{
     font-family: 'Oswald', sans-serif;
 }
 
-main p{
-    margin: 12px;
-    color: rgb(71,29,22);
+/* main p{
+    
+} */
+
+/* 우선순위가 main p보다 높음*/
+.highlight-goal{
+    background-color: rgb(226,115,101);
 }
 
 
