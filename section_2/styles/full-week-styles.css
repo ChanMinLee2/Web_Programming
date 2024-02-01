@@ -5,12 +5,13 @@ header{
 h1{
     font-size: 48px;
     color: rgb(71,62,62);
-    margin: 12px 0;
+    margin: 12px 0;/* 블럭요소간 수직 margin 겹침에는 margin collapsing이 일어남. 더큰 여백으로 결정됨 */
+
 }
 
 /*id selector는 매우 구체적, 1개 대상만 사용가능.*/
 #description{
-    margin-bottom: 36px;
+    margin: 8px;
 }
 
 /* descendent selector는 덜 구체적이고 포괄적, 여러 개 대상으로 사용가능.
@@ -19,13 +20,17 @@ header p{
 } */
 
 a{
-    padding:  12px 48px;
+    padding: 12px 48px;
+    /*inline 요소에는 위아래 padding을 추가할 수 있지만 겹치는 다른 요소를 옮겨주진 않음. */
     background-color: rgb(167,1,78);
     color: white;
     border: 1px solid rgb(167,1,78);
     border-radius: 4px;
     font-size: 24px;
-
+    /*inline 요소에 위아래 여백(margin)은 의미없다*/
+    display: inline-block;
+    /*display : inline-blokc으로 해결하면됨 */
+    margin: 12px 0;
 }
 
 a:hover{
