@@ -1,17 +1,37 @@
-body {
-    margin: 50px;
+/* sec2-71 myself --> feedback */
+main{
+    background-color: rgb(219, 108, 94);
+    padding: 24px;    /* 텍스트와 요소 테두리 거리 늘림 */
+    border-radius: 8px;  /* 테두리 둥글게 */
+    width: 800px;
+    margin: 200px auto 72px auto; /* 블럭 요소 중앙 배치*/
+    border: 5px solid rgb(44,44,44); 
+    box-shadow: 1px 2px 8px rgba(0,0,0,0.3);
 }
 
 img {
-    border: 5px solid rgb(0,0,0);
+    border: 5px solid rgb(44,44,44);
     width: 200px;
     height: 200px;
-    margin-top: -100px;
+    margin-top: -134px; /* 이미지 요소 높이합 210/2 + main padding,border 합 29 = 134px */
     border-radius: 100px;
 }
 
+h1{
+    font-size: 30px;
+    color: rgb(31,25,25);
+}
+
+a{
+    color:rgb(73,29,50);
+}
+
+span{
+    color: rgb(66,2,2);
+}
+
 #todays-challenge{
-    color:rgb(74, 50, 50);
+    color:rgb(75, 59, 59);
     font-weight: bold;
     font-size: 52px;
 }
