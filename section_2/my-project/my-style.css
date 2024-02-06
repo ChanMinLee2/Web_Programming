@@ -2,29 +2,66 @@
 body{
     text-align: center;
     font-family: 'Roboto', sans-serif;
-    background-color: rgb(245, 231, 245);
+    background-color: rgb(241, 234, 253);
+    margin: 50px;
+    font-weight: 500;
+    font-size: 16px;
 }
 
 h1{
     text-align: center;
-    font-size: 36px;
+    font-size: 48px;
     font-weight: 900;
-    color :rgb(84, 48, 191)
+    color :rgb(84, 48, 191);
 }
 
 img{
     width: 250px;
     height: 150px;
+    margin: auto;
+}
+
+main{
+    width: 740px;
+    margin: 20px auto;
+    padding: 18px 0;
+    border-radius: 10px;
+    text-align: left;
+    background-color: rgb(113, 76, 208);
+    color:white;
 }
 
 ol{
+    list-style: none;
+}
+
+li{
+    margin: 10px 15px;
+}
+
+header a{
+    background-color: rgb(252, 240, 185);
+    border-radius: 4px;
+    padding: 2px 4px;
     text-decoration: none;
+    color: rgb(31, 2, 64);
+    font-weight: 450;
+}
+
+footer{
+    margin-top: 30px;
+}
+
+footer a{
+    background-color: rgb(241, 203, 79);
+    padding: 12px 20px;
+    border-radius: 8px;
+    color: rgb(94, 69, 18);
+    text-decoration: none;
+    font-weight: 500;
 }
 
 .major{
-    text-decoration-:;
-}
-
-.minor1{
-    
+    list-style: square;
+    color:rgb(242, 234, 148);
 }
