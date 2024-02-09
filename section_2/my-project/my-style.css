@@ -2,7 +2,7 @@
 body{
     text-align: center;
     font-family: 'Roboto', sans-serif;
-    background-color: rgb(241, 234, 253);
+    background-color: rgb(244, 234, 255);
     margin: 50px;
     font-weight: 500;
     font-size: 16px;
@@ -10,14 +10,13 @@ body{
 
 h1{
     text-align: center;
-    font-size: 48px;
+    font-size: 52px;
     font-weight: 900;
-    color :rgb(84, 48, 191);
+    color :rgb(88, 49, 196);
 }
 
 img{
-    width: 250px;
-    height: 150px;
+    width: 300px;
     margin: auto;
 }
 
@@ -31,21 +30,21 @@ main{
     color:white;
 }
 
-ol{
-    list-style: none;
-}
-
-li{
-    margin: 10px 15px;
-}
-
-header a{
+main a{
     background-color: rgb(252, 240, 185);
     border-radius: 4px;
     padding: 2px 4px;
     text-decoration: none;
     color: rgb(31, 2, 64);
     font-weight: 450;
+}
+
+ol{
+    list-style: none;
+}
+
+li{
+    margin: 10px 15px;
 }
 
 footer{
