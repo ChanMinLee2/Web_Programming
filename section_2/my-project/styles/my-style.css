@@ -4,7 +4,7 @@ body{
     font-family: 'Roboto', sans-serif;
     background-color: rgb(244, 234, 255);
     margin: 50px;
-    font-weight: 500;
+    font-weight: 400;
     font-size: 16px;
 }
 
@@ -23,28 +23,32 @@ img{
 main{
     width: 740px;
     margin: 20px auto;
-    padding: 18px 0;
+    padding: 32px 16px;
     border-radius: 10px;
     text-align: left;
-    background-color: rgb(113, 76, 208);
+    background-color: rgb(122, 74, 218);
     color:white;
 }
 
 main a{
     background-color: rgb(252, 240, 185);
     border-radius: 4px;
-    padding: 2px 4px;
+    padding: 2px 6px;
     text-decoration: none;
-    color: rgb(31, 2, 64);
-    font-weight: 450;
+    color: rgb(36, 3, 102);
+    font-weight: 400;
 }
 
 ol{
     list-style: none;
+    margin: 0;
+    padding: 0 5px;
 }
 
 li{
-    margin: 10px 15px;
+    margin: 14px 0;
+    padding-left: 10px;
+    border-left: 5px solid transparent ;
 }
 
 footer{
@@ -57,10 +61,28 @@ footer a{
     border-radius: 8px;
     color: rgb(94, 69, 18);
     text-decoration: none;
-    font-weight: 500;
+    font-weight: 400;
+}
+
+footer p{
+    color: rgb(131, 113, 149);
+    margin-top: 30px;
+    margin-bottom: 100px;
+}
+
+footer a:hover, footer a:active{
+    background-color: rgb(250,180, 90);
+}
+
+a:hover, a:active{
+    background-color: rgb(250, 201, 39);
 }
 
 .major{
-    list-style: square;
+    border-left: 5px solid rgb(242, 234, 148);
     color:rgb(242, 234, 148);
+}
+
+.highlight{
+    font-weight: bold;
 }
