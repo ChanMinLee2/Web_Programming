@@ -1,0 +1,88 @@
+*{
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 52vw;
+  font-size: 30px;
+  font-weight:450;
+}
+
+.top{
+  display: flex;
+  height: 10%;
+}
+
+.top .header{
+  display: flex;
+  color: white;
+  justify-content: center;
+  width: 20%;
+  background-color:black;
+}
+
+.top .menu{
+  display: flex;
+  justify-content: center;
+  width: 80%;
+  background-color: rgb(154, 51, 51);
+}
+
+.second{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: skyblue;
+  height: 40%;
+}
+
+.third{
+  display: flex;
+  justify-content: space-between;
+  display: flex;
+  height: 40%;
+}
+
+.third .main{
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: aqua;
+}
+
+.thirdSub{
+  display: flex;
+  width: 25%;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.thirdSub .image{
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: silver;
+}
+
+.thirdSub .extra{
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: blueviolet;
+}
+
+.bottom{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10%;
+  background-color: blanchedalmond;
+}
+
