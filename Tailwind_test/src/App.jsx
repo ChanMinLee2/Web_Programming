@@ -1,8 +1,10 @@
-import { useState } from "react";
-import "./App.css";
+import { RouterProvider, createBrowserRouter } from "react-router-dom";
+import Router from "./routes/Router";
+
+const router = createBrowserRouter(Router);
 
 function App() {
-  return <button className="btn">Button</button>;
+  return <RouterProvider router={router}></RouterProvider>;
 }
 
 export default App;
