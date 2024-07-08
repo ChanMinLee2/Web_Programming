@@ -1,5 +1,5 @@
-import MainPage from "../pages/MainPage";
 import AppLayout from "../layout/AppLayout";
+import MainPage from "./../pages/Main/MainPage";
 
 const Router = [
   {
