@@ -12,13 +12,13 @@ const AppContainer = styled.div`
 
 const OutletWrapper = styled.div`
   width: 100%;
-  height: 90%;
+  height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
   overflow-y: auto;
-  background-color: rgba(202, 227, 241, 1);
+  background-color: #00bfa6;
 `;
 
 export { AppContainer, OutletWrapper };
