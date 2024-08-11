@@ -13,7 +13,6 @@ const axiosApi = (url, options) => {
 };
 const defaultInstance = axiosApi(BASE_URL);
 
-const href = window.location.href;
 let params = new URL(window.location.href).searchParams;
 let code = params.get("code");
 console.log(code);
