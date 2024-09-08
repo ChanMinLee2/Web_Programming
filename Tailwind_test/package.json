@@ -27,6 +27,7 @@
     "redux-toolkit": "^1.1.2",
     "remix": "^2.10.0",
     "styled-components": "^6.1.11",
+    "tailwind_test": "file:",
     "tailwindcss": "^3.4.4"
   },
   "devDependencies": {
